@@ -130,7 +130,7 @@ const verifyUser = async (req, res) => {
 
 
 const login = async (req, res) => {
-    // get data from user
+    // get data from user -
     const {email, password} = req.body
 
     try {
